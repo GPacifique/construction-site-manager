@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#102b27">
+        <title>You're offline · Sitex</title>
+        <style>
+            :root {
+                color-scheme: light;
+                font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+                background: #f7f8f4;
+                color: #172522;
+            }
+            body {
+                display: grid;
+                min-height: 100vh;
+                margin: 0;
+                place-items: center;
+                padding: 24px;
+                box-sizing: border-box;
+            }
+            main {
+                width: min(100%, 440px);
+                padding: 32px;
+                border: 1px solid #e6e9e1;
+                border-radius: 20px;
+                background: white;
+                box-shadow: 0 16px 48px #17252212;
+            }
+            h1 { margin: 20px 0 8px; font-size: 1.6rem; }
+            p { color: #64716b; line-height: 1.6; }
+            a {
+                display: inline-block;
+                margin-top: 12px;
+                padding: 12px 18px;
+                border-radius: 10px;
+                background: #183b32;
+                color: white;
+                font-weight: 700;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <img src="/pwa-icon.svg" width="48" height="48" alt="">
+            <h1>You're offline</h1>
+            <p>Reconnect to the internet, then reload Sitex to continue managing your projects.</p>
+            <a href="/">Try again</a>
+        </main>
+    </body>
+</html>
